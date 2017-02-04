@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+      
+<script>
+var A = 2, B = 2;
+document.write ('<p>A = ' + A); // A = 2
+document.write ('<p>B = ' + B); // B = 2
+var X = B / 2 - Math.pow(A,2) * B + Math.sqrt (B);
+document.write ('<p>X = ' + X); // X = 0.5
+if (X==0.5){
+    document.write("<p>True");
+}
+else {
+    document.write("<p>False");
+}
+</script>
+    </body>
+</html>
